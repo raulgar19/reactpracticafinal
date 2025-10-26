@@ -59,7 +59,7 @@ export default class Apuestas extends Component {
               return (
                 <tr key={index}>
                   <td>{apuesta.usuario}</td>
-                  <td>{apuesta.nombre}</td>
+                  <td>{apuesta.resultado}</td>
                   <td>{apuesta.fecha}</td>
                   <td>
                     <button
